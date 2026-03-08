@@ -1,0 +1,5 @@
+{
+  "name": "test-helper",
+  "description": "Generate tests and analyze coverage with /test-gen and /coverage commands",
+  "version": "1.0.0"
+}

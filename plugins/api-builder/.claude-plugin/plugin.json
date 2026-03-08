@@ -1,0 +1,5 @@
+{
+  "name": "api-builder",
+  "description": "Scaffold REST APIs and generate OpenAPI docs with /api-scaffold and /api-docs commands",
+  "version": "1.0.0"
+}

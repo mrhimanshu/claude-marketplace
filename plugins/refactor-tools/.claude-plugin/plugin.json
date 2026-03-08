@@ -1,0 +1,5 @@
+{
+  "name": "refactor-tools",
+  "description": "Intelligent refactoring with /refactor and /simplify commands",
+  "version": "1.0.0"
+}

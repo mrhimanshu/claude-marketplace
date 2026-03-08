@@ -1,0 +1,5 @@
+{
+  "name": "git-workflow",
+  "description": "Git workflow automation with /pr-summary and /commit-msg commands plus auto-lint hooks",
+  "version": "1.0.0"
+}

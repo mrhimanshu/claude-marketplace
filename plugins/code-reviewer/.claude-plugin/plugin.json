@@ -1,0 +1,5 @@
+{
+  "name": "code-reviewer",
+  "description": "AI-powered code review with /review and /security-audit commands",
+  "version": "1.0.0"
+}

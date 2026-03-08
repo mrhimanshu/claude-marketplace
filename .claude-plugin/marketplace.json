@@ -1,0 +1,86 @@
+{
+  "name": "claude-community-marketplace",
+  "owner": {
+    "name": "Himanshu",
+    "email": "himanshu@example.com"
+  },
+  "metadata": {
+    "description": "A distributed marketplace of Claude Code plugins for productivity, code quality, and developer workflows",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "code-reviewer",
+      "source": "./plugins/code-reviewer",
+      "description": "AI-powered code review with /review and /security-audit commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "Himanshu"
+      },
+      "category": "code-quality",
+      "tags": ["review", "security", "best-practices"],
+      "keywords": ["code-review", "security-audit", "lint"]
+    },
+    {
+      "name": "git-workflow",
+      "source": "./plugins/git-workflow",
+      "description": "Git workflow automation with /pr-summary and /commit-msg commands plus auto-lint hooks",
+      "version": "1.0.0",
+      "author": {
+        "name": "Himanshu"
+      },
+      "category": "git",
+      "tags": ["git", "pr", "commit", "hooks"],
+      "keywords": ["pull-request", "commit-message", "workflow"]
+    },
+    {
+      "name": "doc-generator",
+      "source": "./plugins/doc-generator",
+      "description": "Generate documentation and changelogs with /docs and /changelog commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "Himanshu"
+      },
+      "category": "documentation",
+      "tags": ["docs", "changelog", "markdown"],
+      "keywords": ["documentation", "readme", "changelog"]
+    },
+    {
+      "name": "test-helper",
+      "source": "./plugins/test-helper",
+      "description": "Generate tests and analyze coverage with /test-gen and /coverage commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "Himanshu"
+      },
+      "category": "testing",
+      "tags": ["testing", "unit-tests", "coverage"],
+      "keywords": ["test-generation", "coverage", "tdd"]
+    },
+    {
+      "name": "refactor-tools",
+      "source": "./plugins/refactor-tools",
+      "description": "Intelligent refactoring with /refactor and /simplify commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "Himanshu"
+      },
+      "category": "code-quality",
+      "tags": ["refactor", "simplify", "clean-code"],
+      "keywords": ["refactoring", "code-smell", "optimization"]
+    },
+    {
+      "name": "api-builder",
+      "source": "./plugins/api-builder",
+      "description": "Scaffold REST APIs and generate OpenAPI docs with /api-scaffold and /api-docs commands",
+      "version": "1.0.0",
+      "author": {
+        "name": "Himanshu"
+      },
+      "category": "api",
+      "tags": ["api", "rest", "openapi", "scaffold"],
+      "keywords": ["api-design", "openapi", "rest-api"]
+    }
+  ]
+}

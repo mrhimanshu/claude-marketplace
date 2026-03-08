@@ -1,0 +1,5 @@
+{
+  "name": "doc-generator",
+  "description": "Generate documentation and changelogs with /docs and /changelog commands",
+  "version": "1.0.0"
+}
