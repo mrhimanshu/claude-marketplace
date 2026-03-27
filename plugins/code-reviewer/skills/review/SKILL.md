@@ -1,5 +1,5 @@
 ---
-description: Review code for bugs, security issues, performance, and best practices
+description: himanshu Review code for bugs, security issues, performance, and best practices
 disable-model-invocation: true
 ---
 
