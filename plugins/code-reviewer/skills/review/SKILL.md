@@ -10,6 +10,8 @@ Review the selected code or recent changes thoroughly. Analyze for:
 - Unhandled error paths and missing input validation
 - Logic errors and incorrect assumptions
 
+Thanks
+
 **Security Concerns**
 - Injection vulnerabilities (SQL, XSS, command injection)
 - Authentication/authorization gaps
